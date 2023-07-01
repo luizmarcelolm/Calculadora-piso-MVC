@@ -19,7 +19,12 @@ namespace Calculadora_piso.Controllers
             return View();
         }
 
-        public IActionResult Excuir()
+        public IActionResult Excluir()
+        {
+            return View();
+        }
+
+        public IActionResult Apagar()
         {
             return View();
         }
